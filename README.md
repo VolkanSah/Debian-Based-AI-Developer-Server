@@ -1,5 +1,5 @@
 # Debian-Based AI Developer Server
-This repository provides steps to set up an OpenAI development environment on your Debian system under Windows Subsystem for Linux (WSL).
+This repository provides steps to set up an OpenAI development environment on your Debian-Based system and under Windows Subsystem for Linux (WSL).
 
 ## Setting Up Your Environment
 ### Python Installation
@@ -59,19 +59,19 @@ pip install openai
 ```bash
 pip install requests
 ```
-click: This library helps you create beautiful command-line interfaces. It has many features that make your life easier, such as automatic generation of help pages, and support for command groups and arguments.
+`click`: This library helps you create beautiful command-line interfaces. It has many features that make your life easier, such as automatic generation of help pages, and support for command groups and arguments.
 ```bash
 pip install click
 ```
-python-dotenv: With this, you can load environment variables from a .env file in your project. This is very useful to securely store sensitive information such as your OpenAI API key.
+`python-dotenv`: With this, you can load environment variables from a .env file in your project. This is very useful to securely store sensitive information such as your OpenAI API key.
 ```bash
 pip install python-dotenv
 ```
-pytest: This is a test library for Python, which ensures that your CLI tool works as expected.
+`pytest`: This is a test library for Python, which ensures that your CLI tool works as expected.
 ```bash
 pip install pytest
 ```
-setuptools: Once you've created your CLI tool, you can convert it into a Python library that other developers can use as a plugin for their own projects. A common way to do this is using setuptools, a library for creating Python distributions.
+`setuptools`: Once you've created your CLI tool, you can convert it into a Python library that other developers can use as a plugin for their own projects. A common way to do this is using setuptools, a library for creating Python distributions.
 ```bash
 pip install setuptools
 ```
