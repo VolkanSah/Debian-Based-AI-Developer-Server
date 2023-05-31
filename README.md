@@ -10,11 +10,6 @@ This repository provides steps to set up an OpenAI development environment on yo
 - [Virtual Environment](#virtual-environment)
 - [Version Control](#version-control)
 - [Using Debian on WSL](#using-debian-on-wsl)
-  - [Starting WSL](#starting-wsl)
-  - [Installing a WSL Distribution](#installing-a-wsl-distribution)
-  - [Stopping WSL](#stopping-wsl)
-  - [Uninstalling a WSL Distribution](#uninstalling-a-wsl-distribution)
-  - [Listing Installed WSL Distributions](#listing-installed-wsl-distributions)
 
 
 ## Setting Up Your Environment
