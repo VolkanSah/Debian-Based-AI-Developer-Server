@@ -1,4 +1,4 @@
-# Debian-Based AI Developer Server
+# Debian-Based OpenAI Developer Server
 This repository provides steps to set up an OpenAI development environment on your Debian-Based system and under Windows Subsystem for Linux (WSL).
 ## Table of Contents
 
