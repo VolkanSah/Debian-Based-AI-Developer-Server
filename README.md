@@ -116,3 +116,53 @@ Schreibe gute Tests: Gute Tests sind unglaublich wichtig, um sicherzustellen, da
 Folge den PEP 8-Stilrichtlinien: PEP 8 ist der offizielle Stilführer für Python-Code. Es enthält Richtlinien für Dinge wie Einrückung, Leerzeichen und Namensgebung. Die Einhaltung dieser Richtlinien macht deinen Code leichter zu lesen und zu verstehen.
 
 Dokumentiere deinen Code: Gute Dokumentation macht es anderen leichter, deinen Code zu verstehen und zu verwenden. Kommentiere deinen Code ausführlich und schreibe gute Docstrings für alle Funktionen und Klassen.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  WSL starten: WSL wird automatisch gestartet, wenn du es öffnest. Du kannst dies tun, indem du einfach "wsl" in PowerShell eingibst:
+
+powershell
+Copy code
+wsl
+Dies öffnet eine neue WSL-Instanz mit der Standard-Distribution. Wenn du eine spezifische Distribution starten möchtest, kannst du deren Namen als Argument angeben, z.B.:
+
+powershell
+Copy code
+wsl -d Ubuntu
+Eine WSL-Distribution installieren: Du kannst eine neue WSL-Distribution aus dem Microsoft Store installieren. Der genaue Befehl hängt von der spezifischen Distribution ab, die du installieren möchtest. Zum Beispiel, um Ubuntu 20.04 zu installieren, könntest du ausführen:
+
+powershell
+Copy code
+wsl --install -d Ubuntu-20.04
+WSL stoppen: Du kannst eine laufende WSL-Instanz stoppen, indem du "exit" in der WSL-Befehlszeile eingibst. Um alle laufenden WSL-Instanzen zu stoppen, kannst du den folgenden Befehl in PowerShell ausführen:
+
+powershell
+Copy code
+wsl --shutdown
+Eine WSL-Distribution deinstallieren: Wenn du eine WSL-Distribution nicht mehr benötigst, kannst du sie mit dem folgenden Befehl deinstallieren:
+
+powershell
+Copy code
+wsl --unregister <DistributionName>
+Bitte beachte, dass dies alle Daten in der Distribution löscht.
+
+Liste der installierten WSL-Distributionen anzeigen: Du kannst eine Liste aller installierten WSL-Distributionen anzeigen, indem du den folgenden Befehl in PowerShell ausführst:
+
+powershell
+Copy code
+wsl --list --verbose
