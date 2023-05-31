@@ -94,23 +94,22 @@ Verwende eine virtuelle Umgebung: Dies ist besonders wichtig, wenn du an mehrere
 
 ```bash
 pip install virtualenv
+  ```
 Und dann eine neue virtuelle Umgebung erstellen mit:
 
-bash
-Copy code
+```bash
 virtualenv venv
+  ```
 Aktiviere die Umgebung mit:
 
-bash
-Copy code
+```bash
 source venv/bin/activate
+  ```
 Jetzt sind alle Python-Pakete, die du installierst, auf diese Umgebung beschränkt und beeinflussen nicht deine globale Python-Installation.
 
 Verwende Versionskontrolle: Versionskontrolle ist ein Muss für jedes Softwareprojekt. Sie ermöglicht es dir, Änderungen an deinem Code im Laufe der Zeit zu verfolgen und zu älteren Versionen zurückzukehren, wenn etwas schief geht. Git ist das am häufigsten verwendete Versionskontrollsystem. Du kannst es auf Debian mit dem folgenden Befehl installieren:
 
-bash
-Copy code
-sudo apt-get install git
+
 Schreibe gute Tests: Gute Tests sind unglaublich wichtig, um sicherzustellen, dass dein Code so funktioniert, wie du es erwartest. Sie können dir auch dabei helfen, Bugs zu finden, bevor sie zu echten Problemen werden. pytest ist ein großartiges Werkzeug für das Schreiben von Tests in Python, wie ich bereits erwähnt habe.
 
 Folge den PEP 8-Stilrichtlinien: PEP 8 ist der offizielle Stilführer für Python-Code. Es enthält Richtlinien für Dinge wie Einrückung, Leerzeichen und Namensgebung. Die Einhaltung dieser Richtlinien macht deinen Code leichter zu lesen und zu verstehen.
