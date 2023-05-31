@@ -117,11 +117,14 @@ WSL is automatically started when you open it. You can do this by simply typing 
 
 ```powershell
 wsl
+  ```
 This opens a new WSL instance with the default distribution. If you want to start a specific distribution, you can provide its name as an argument, e.g.,:
 
 ```powershell
 
 wsl -d Ubuntu
+  
+```
 Installing a WSL Distribution
 You can install a new WSL distribution from the Microsoft Store. The exact command depends on the specific distribution you want to install. For example, to install Ubuntu 20.04, you could run:
 
