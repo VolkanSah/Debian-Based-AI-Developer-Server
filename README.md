@@ -129,7 +129,7 @@ Installing a WSL Distribution
 You can install a new WSL distribution from the Microsoft Store. The exact command depends on the specific distribution you want to install. For example, to install Ubuntu 20.04, you could run:
 
 ```powershell
-wsl --install -d Debian
+wsl --install -d Ubuntu 20.04
 ```
 Stopping WSL
 You can stop a running WSL instance by typing "exit" at the WSL command line. To stop all running WSL instances, you can run the following command in PowerShell:
