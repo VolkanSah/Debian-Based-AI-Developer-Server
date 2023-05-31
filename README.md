@@ -1,5 +1,21 @@
 # Debian-Based AI Developer Server
 This repository provides steps to set up an OpenAI development environment on your Debian-Based system and under Windows Subsystem for Linux (WSL).
+## Table of Contents
+
+- [Setting Up Your Environment](#setting-up-your-environment)
+  - [Python Installation](#python-installation)
+  - [pip Installation](#pip-installation)
+  - [OpenAI Library Installation](#openai-library-installation)
+- [Optional But Useful Libraries](#optional-but-useful-libraries)
+- [Virtual Environment](#virtual-environment)
+- [Version Control](#version-control)
+- [Using Debian on WSL](#using-debian-on-wsl)
+  - [Starting WSL](#starting-wsl)
+  - [Installing a WSL Distribution](#installing-a-wsl-distribution)
+  - [Stopping WSL](#stopping-wsl)
+  - [Uninstalling a WSL Distribution](#uninstalling-a-wsl-distribution)
+  - [Listing Installed WSL Distributions](#listing-installed-wsl-distributions)
+
 
 ## Setting Up Your Environment
 ### Python Installation
